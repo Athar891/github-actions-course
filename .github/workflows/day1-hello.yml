@@ -6,12 +6,12 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: print a message
+      - name: Greeting-Message
         run: echo "Hello, Github!"
 
   farewell:
     runs-on: ubuntu-latest
     needs: [say-hello]
     steps:
-      - name: print a second message
+      - name: Farewell-Message
 	run: echo "Goodbye from job2!"
