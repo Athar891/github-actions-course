@@ -14,4 +14,4 @@ jobs:
     needs: [say-hello]
     steps:
       - name: Farewell-Message
-	run: echo "Goodbye from job2!"
+	    run: echo "Goodbye from job2!"
