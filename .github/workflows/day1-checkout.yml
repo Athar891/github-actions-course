@@ -4,12 +4,10 @@ on: push
 
 jobs:
   demo:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Download repo
         uses: actions/checkout@v4
    
       - name: Show files
         run: ls
-
-  
